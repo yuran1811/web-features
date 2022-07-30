@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="manifest" href="manifest.json" />
+    <title>PWA Features</title>
+  </head>
+  <body>
+    <div class="section">
+      <h2>Bluetooth</h2>
+      <button id="ble">Connect Device</button>
+    </div>
+
+    <div class="section">
+      <h2>Device Motion</h2>
+      <p id="motion"></p>
+    </div>
+
+    <div class="section">
+      <h2>Contact Picker</h2>
+      <button id="contacts">Select Contacts</button>
+    </div>
+
+    <div class="section">
+      <h2>Idle Detection</h2>
+      <button id="idle">Idle Detection</button>
+      <div id="idle-status"></div>
+    </div>
+
+    <div class="section">
+      <h2>File System</h2>
+      <button id="fs-get">Read File</button>
+      <button id="fs-save">Write File</button>
+    </div>
+
+    <div class="section">
+      <h2>Web Sharing</h2>
+      <button id="share">Share</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
